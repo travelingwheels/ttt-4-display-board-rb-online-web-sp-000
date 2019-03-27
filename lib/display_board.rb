@@ -9,14 +9,3 @@ def display_board(board)
   puts "-----------"
   puts "   |   |   "
 end
-
-board = [" "," "," "," ","x"," "," "," "," "]
-
-def display_board(board)
-  puts "   |   |   "
-  puts "-----------"
-  puts "   |   |   "
-  puts "-----------"
-  puts "   |   |   "
-end
-  
