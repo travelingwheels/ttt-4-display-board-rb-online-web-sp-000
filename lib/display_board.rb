@@ -1,11 +1,11 @@
 # Define display_board that accepts a board and prints
 # out the current state.
-board = [" "," "," "," ","x"," "," "," "," "]
+board = [" "," "," "," "," "," "," "," "," "]
 
 def display_board(board)
   puts "   |   |   "
   puts "-----------"
-  puts "   |#{board[5]}  |   "
+  puts "   |x #{board[5]}  |   "
   puts "-----------"
   puts "   |   |   "
 end
